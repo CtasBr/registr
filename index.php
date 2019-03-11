@@ -4,7 +4,7 @@
 <title>Анкета страховой</title>
 </head>
 <body>
-	<form action="regs.php" method="post">
+	<form action="regh.php" method="post">
 		<h1>Анкета для страховой компании</h1>
 	
 	<div class="group">
