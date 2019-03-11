@@ -8,7 +8,7 @@
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   }
-  
+  {
   "require": {
     "sendgrid / sendgrid": "~ 7"
   }
