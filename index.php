@@ -1,6 +1,6 @@
 <?php
 echo "export SENDGRID_API_KEY='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'" > sendgrid.env
-echo "sendgrid.env" >> .gitignore
+echo "sendgrid.env" >> .gitignore;
 source ./sendgrid.env;
 require 'vendor/autoload.php';
 $email = new \SendGrid\Mail\Mail(); 
