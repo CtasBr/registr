@@ -4,7 +4,7 @@
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
     "symfony/twig-bridge": "^3", 
-    " sendgrid / sendgrid "  : " ~ 7 " 
+    " sendgrid / sendgrid " : " ~7 " 
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
