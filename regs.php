@@ -33,8 +33,10 @@ $ncp = trim ($ncp);
 //echo $np;
 //echo "<br>";
 //echo $ncp;
-
-if (mail ("st.dm.br.04@mail.ru" ,"syte" ,"FIO:".$nm.". Email:".$em.". Номер машины:".$nc.". Номер паспорта:".$np.". Номер прав:".$ncp ,"From: stas.bratkov@bk.ru \r\n")){
+$to = "st.dm.br.04@mail.ru";
+$subject = "Lol";
+$message = "Kek";
+if (mail ($to, $subject, $message)){
 	echo "<a>Отправлено</a><a href=\'index.php\'> на главную</a>";
 } else {
 	echo "<a>Ошибка</a>";
