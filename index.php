@@ -1,12 +1,12 @@
 <?php
-echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
+echo "export SENDGRID_API_KEY='stas'" > sendgrid.env
 echo "sendgrid.env" >> .gitignore
 source ./sendgrid.env;
 require 'vendor/autoload.php';
 $email = new \SendGrid\Mail\Mail(); 
-$email->setFrom("test@example.com", "Example User");
+$email->setFrom("stanislavdmbr@gmail.com", "Example User");
 $email->setSubject("Sending with SendGrid is Fun");
-$email->addTo("test@example.com", "Example User");
+$email->addTo("stanislavdmbr@gmail.com", "Example User");
 $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
