@@ -1,4 +1,7 @@
 <?php
+echo "export SENDGRID_API_KEY='stas'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env;
 echo "<link rel='stylesheet' href='regphp.css'>";
 $nm = $_POST["nm"];
 $em = $_POST["em"];
@@ -39,7 +42,5 @@ if (mail ("st.dm.br.04@mail.ru" ,"syte" ,"FIO:".$nm.". Email:".$em.". Номер
 } else {
 	echo "<a>Ошибка</a>";
 } 
-echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
-echo "sendgrid.env" >> .gitignore
-source ./sendgrid.env
+
 	?>
