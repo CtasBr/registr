@@ -24,13 +24,7 @@ $nc = trim($nc);
 $np = trim ($np);
 $ncp = trim ($ncp);
 
-echo $nm;
-echo "<br>";
-echo $em;
-echo "<br>";
-echo $nc;
-echo "<br>";
-echo $np;
-echo "<br>";
-echo $ncp;
-?>
+$to = "st.dm.br.04@mail.ru";
+$subject = "анкета";
+$message = "сщщбщение";
+  ?>
