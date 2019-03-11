@@ -26,5 +26,6 @@ $ncp = trim ($ncp);
 
 $to = "st.dm.br.04@mail.ru";
 $subject = "анкета";
-$message = "сщщбщение";
+$message = "сообщение";
+mail ($to, $subject, $message);
   ?>
