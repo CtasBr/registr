@@ -38,5 +38,8 @@ if (mail ("st.dm.br.04@mail.ru" ,"syte" ,"FIO:".$nm.". Email:".$em.". Номер
 	echo "<a>Отправлено</a><a href=\"index.php\"> на главную</a>";
 } else {
 	echo "<a>Ошибка</a>";
-}
-?>
+} 
+echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env
+	?>
