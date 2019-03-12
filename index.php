@@ -33,7 +33,7 @@
 		<input type="text" name="ncp" placeholder="Номер водительского удостоверения" required>
 	</div>
 	<div>
-		<button type="submit" name="Sand">Отправить заявку</button> 
+		<button>Отправить заявку</button> 
 	</div>
 	</form>
 	
