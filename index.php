@@ -4,7 +4,7 @@
 <title>Анкета страховой</title>
 </head>
 <body>
-	<form  method="post">   //action
+	<form  method="post">   
 		<h1>Анкета для страховой компании</h1>
 		<!-- Hidden Required Fields -->
 		<input type="hidden" name="project_name" value="Site Name">
