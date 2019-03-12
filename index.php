@@ -31,6 +31,9 @@
 		<button type="submit" name="Sand">Отправить заявку</button> 
 	</div>
 	</form>
+	
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
 
 <div id="save">SAVE</div>
 <div id="save1">SAVE</div>
