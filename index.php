@@ -8,7 +8,7 @@
 		<h1>Анкета для страховой компании</h1>
 		<!-- Hidden Required Fields -->
 		<input type="hidden" name="project_name" value="Site Name">
-		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="admin_email" value="stanislavdmbr@gmail.com">
 		<input type="hidden" name="form_subject" value="Form Subject">
 		<!-- END Hidden Required Fields -->
 	
